@@ -59,7 +59,7 @@ public class HomeWorkTests {
     }
 
     @Test
-    void DeteteTest() {
+    void DeleteTest() {
         String response =
         delete("https://reqres.in/api/users/2")
                 .then()
