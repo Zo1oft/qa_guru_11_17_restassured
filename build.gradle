@@ -15,7 +15,6 @@ dependencies {
     testImplementation(
             "io.rest-assured:rest-assured:$restAssured",
             "org.assertj:assertj-core:3.22.0",
-            'com.google.code.gson:gson:2.9.0',
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly(
             "org.slf4j:slf4j-simple:$slf4jVersion",
