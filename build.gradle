@@ -9,10 +9,12 @@ repositories {
 def
         restAssured = "4.4.0",
         junitVersion = "5.8.2",
+        selenideVersion = "6.3.4",
         slf4jVersion = "1.7.36"
 
 dependencies {
     testImplementation(
+            "com.codeborne:selenide:$selenideVersion",
             "io.rest-assured:rest-assured:$restAssured",
             "org.assertj:assertj-core:3.22.0",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
