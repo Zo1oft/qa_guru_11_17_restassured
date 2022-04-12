@@ -1,21 +1,11 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.awaitility.Awaitility;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-
-import java.util.concurrent.Callable;
-import java.util.concurrent.TimeUnit;
-
 import static io.restassured.RestAssured.*;
 import static io.restassured.http.ContentType.JSON;
-import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.awaitility.Awaitility.await;
 import static org.hamcrest.Matchers.*;
 
 public class HomeWorkTests {
